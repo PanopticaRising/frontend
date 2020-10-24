@@ -46,7 +46,9 @@
     "react-icons": "^3.10.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
+    "sourcemapped-stacktrace": "^1.1.11",
     "typescript": "^3.7.5",
+    "url-join": "^4.0.1",
     "winston": "^3.3.3"
   },
   "scripts": {
@@ -77,6 +79,7 @@
   },
   "devDependencies": {
     "@hookform/devtools": "^2.2.1",
+    "@types/url-join": "^4.0.0",
     "@types/winston": "^2.4.4",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
