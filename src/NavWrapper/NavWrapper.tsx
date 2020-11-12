@@ -62,6 +62,8 @@ export const NavWrapper: React.FC<NavWrapperProps> = () => {
         history.push('/');
     };
 
+    const unusedVariable = false;
+
     return (
         <Container fluid id='navbarParent'>
             {/* Header bar */}
@@ -97,7 +99,7 @@ export const NavWrapper: React.FC<NavWrapperProps> = () => {
             <Container fluid role='main'>
                 <Provider value={{userType: getUserRole()}}>    
                     <AnimatePresence initial={false}>
-                        <URLBreadcrumb key='URLBreadcrumb' />
+                        <URLBreadcrumb />
                         <Switch>
                             <Route exact path={`${path}/account`}>
                                 <AccountWrapper />
