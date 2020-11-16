@@ -11,4 +11,5 @@ jobs:
         with:
           reporter: github-pr-review # Change reporter.
           level: warning
+          eslint_flags: '--ext tsx .'
           fail_on_error: true
